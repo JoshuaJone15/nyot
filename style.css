@@ -1,5 +1,5 @@
 body {
-    background-color: Green;
+    background-color: white;
 }
 nav{
     text-transform: uppercase;
@@ -16,9 +16,26 @@ nav{
 } 
 header {
     text-align: center;
-    height: 600px;
-    width:  400px;
-    background-image: url()image)
-    background size: cover;
+    height: 500px;
+    width:  cover px;
+    background-image: url("apple.html");
+    /*background-size:cover;*/
    /*text align*/
+}
+
+
+.services i {
+    font-size:  30px ;
+    padding: 25px 20px;
+    background-color: Green;
+    
+    width: 80px;
+    height: 80px;
+    
+    Border-radius: 50%;
+}
+
+.services span {
+    width: 200px;
+    display: inline-block;
 }
